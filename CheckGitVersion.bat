@@ -14,6 +14,7 @@ IF NOT DEFINED CURRENT (
 echo Your installed Git version is: %CURRENT%
 
 REM Optional: Set threshold version you consider "outdated"
+REM First commited to Github on 5/3/2025
 set "LATEST_VERSION=2.49.0"
 
 REM Compare version strings (simple starts-with match)
